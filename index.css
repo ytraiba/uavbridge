@@ -1,0 +1,129 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+hr{
+    width: 100%;
+    border: 2px solid #c94b44;
+    margin-top: 1px;
+
+}
+h2{
+    text-align: left;
+    margin-left: 8vw;
+    font-size: x-large;
+    color: #c83730;
+}
+a{
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 8px;
+    color: #c94b44;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom left, #ffffff 0%, #cccccc 100%);
+    height: fit-content;
+}
+p{
+    text-align: left;
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+}
+ul{
+    text-align: left;
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    ;
+}
+.droneImg{
+    width: 40vw;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #E5E4E2;
+    border-radius: 8px;
+    float: right;
+    margin-left: 2em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+}
+.dataImg{
+    width: 80vw;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #E5E4E2;
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.logo{
+   height: 100px;
+   margin-left: 2vw;
+   margin-top: 1vw;
+}
+.container{
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+/* media query */
+@media screen and (max-width: 1024px){
+    .droneImg{
+        width: 35vw;
+        height: 100%;
+        float: right;
+        border: 1px solid #E5E4E2;
+        border-radius: 8px;
+    }
+    .dataImg{
+        width: 80vw;
+        height: 100%;
+        display: block;
+        margin: auto;
+        border: 1px solid #E5E4E2;
+        border-radius: 8px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .logo{
+        height: 100px;
+        margin-left: 2vw;
+        margin-top: 1vw;
+    }
+    .container{
+        width: fit-content;
+        display: block;
+        margin: auto;
+    }
+    a{
+        text-align: center;
+        display: block;
+        margin: auto;
+        font-size: 14px;
+        margin-top: 12px;
+        color: #c94b44;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    h1{
+        text-align: center;
+        margin: auto;
+        white-space: nowrap;
+        font-size: 3.5em;
+
+    }
+}
