@@ -1,8 +1,18 @@
+.pageBackground{
+    height: inherit;
+    width: 100%;
+    margin: 2em;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background: #ffffff;
+
+}
 h1{
     text-align: center;
     font-size: 50px;
     margin-top: -25px;
     margin-bottom: 0px;
+    padding-top: 1em;
 }
 hr{
     width: 100%;
@@ -27,10 +37,18 @@ a{
     padding-right: 2px;
     text-decoration: none;
 }
+.bodyText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #bcbcbc;
+    height: max-content;
+}
 body{
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom left, #ffffff 0%, #cccccc 100%);
-    height: fit-content;
+    margin-right: 70px;
+}
+.subText{
+    font-size: 14px;
+    color: #979797;
+    text-align: center;
 }
 p{
     text-align: left;
@@ -73,6 +91,7 @@ ul{
    height: 100px;
    margin-left: 2vw;
    margin-top: 1vw;
+   margin-bottom: -35px;
 }
 .container{
     width: fit-content;
@@ -102,6 +121,7 @@ ul{
         height: 100px;
         margin-left: 2vw;
         margin-top: 1vw;
+        margin-bottom: 0px;
     }
     .container{
         width: fit-content;
@@ -123,7 +143,13 @@ ul{
         text-align: center;
         margin: auto;
         white-space: nowrap;
-        font-size: 3.5em;
+        font-size: 65px;
 
+    }
+    .pageBackground{
+        margin: 0;
+    }
+    body{
+        margin-right: 12px;
     }
 }
