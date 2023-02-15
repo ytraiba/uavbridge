@@ -101,13 +101,13 @@ ul{
 /* media query */
 @media screen and (max-width: 1024px){
     .droneImg{
-        width: 40vw;
+        width: 45vw;
         height: 100%;
         float: right;
         border: 1px solid #E5E4E2;
         border-radius: 8px;
         margin-right: 10px;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-bottom: 10px;
     }
     .dataImg{
