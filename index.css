@@ -106,6 +106,9 @@ ul{
         float: right;
         border: 1px solid #E5E4E2;
         border-radius: 8px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
     .dataImg{
         width: 90vw;
@@ -118,9 +121,10 @@ ul{
         margin-bottom: 1em;
     }
     .logo{
-        height: 100px;
+        height: 40px;
         margin-left: 2vw;
         margin-top: 1vw;
+        margin-bottom: -15px;
     }
     .container{
         width: fit-content;
@@ -132,38 +136,41 @@ ul{
         display: block;
         margin: auto;
         font-size: 14px;
-        margin-top: 12px;
         color: #c94b44;
         padding-left: 10px;
         padding-right: 10px;
-        padding-top: 10px;
+        padding-top: 0px;
         text-decoration: none;
     }
     h1{
         text-align: center;
         margin: auto;
         white-space: nowrap;
-        font-size: 65px;
+        font-size: 28px;
 
     }
     p{
-        margin-left: 50px;
-        margin-top: 0px;
-        font-size: 30px;
+        width: 90vw;
+        font-size: 15px;
     }
     h2{
-        margin: 50px;
-        font-size: 35px;
+        margin: 10px;
+        font-size: 20px;
     }
     ul{
-        margin: 50px;
-        margin-top: 0px;
-        font-size: 30px;
+        margin: 10px;
+        margin-top: -10px;
+        font-size: 15px;
     }
     .pageBackground{
         margin: 0;
+        
     }
     body{
         margin-right: 12px;
+        height: max-content;
+    }
+    .learnMore{
+        padding-top: 10px;
     }
 }
